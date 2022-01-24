@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<style>
+body {
+  background-image: url('homebackground.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+
+<head>
+<title>Braille's Kitchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<style>
+a:link, a:visited {
+  background: linear-gradient(to bottom, #00ff99 0%, #ff3399 100%);
+  color: MidnightBlue;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background: linear-gradient(to bottom, #00ff99 0%, #ff3399 100%);
+  color: white;
+}
+</style>
+</head>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #663399;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #FF00FF;
+  padding: 20px;
+}
+</style>
+<style>
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+</style>
+<body>
+
+<h1 style="text-align:center;font-size:70px;background: linear-gradient(to bottom, #6666ff 0%, #ff3399 100%);color:Khaki"><span style="cursor:default">CONTACT</span><br></h1>
+
+<center>
+<p>
+<a href="index.html">HOME</a>
+<a href="about.html">ABOUT</a>
+<a href="services.html">SERVICES</a>
+<a href="customer feedback.html">CUSTOMER FEEDBACK</a>
+<a href="contact.html">CONTACT</a>
+</p>
+</center>
+
+<h2 style="text-align:center;font-size:170%;color:black"><span style="cursor:default">Thank you for visiting our website ! &#128525</span><br></h2>
+<h2 style="text-align:center;font-size:170%;color:black"><span style="cursor:default">Interested in becoming our dealer / agent? &#129303</span><br></h2>
+<h2 style="text-align:center;font-size:170%;color:black"><span style="cursor:default">Send your detail by filling this form below here &#128522</span><br></h2>
+
+<br>
+<br>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your name..">
+
+    <label for="lname">E-Mail</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<br>
+<br>
+<h1 style="color:goldenrod">Please give us a rate on our site &#11088;</h1>
+<label style="color:black" class="container">Excellent &#129321
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label style="color:black" class="container">Good &#128522
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label style="color:black" class="container">Bad &#128528
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+
+</body>
+</html>
